@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  builder:
+    build: .
+    volumes:
+      - /Volumes/A/spotlight/dbpedia/:/mnt/dbpedia/
+    command: ./build_all.sh 2015-10 it
+
+
