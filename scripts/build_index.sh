@@ -6,7 +6,7 @@ LANGUAGE=$2
 echo ${LANGUAGE} ${VERSION}
 
 readonly JAVA_XMX=12G
-readonly ROOT_DIR=/mnt/dbpedia/
+readonly ROOT_DIR=/mnt/
 readonly ROOT_DIR_TEMP=/mnt/dbpedia/tmp
 readonly SPOTLIGHT_INDEX=${ROOT_DIR}lucene-quickstarter/dbpedia-spotlight/index
 readonly SPOTLIGHT_OUTPUT_FILES=${ROOT_DIR}spotlight/${LANGUAGE}/

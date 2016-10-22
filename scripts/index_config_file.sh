@@ -43,10 +43,10 @@ fi
 echo "org.dbpedia.spotlight.default_ontology=http://dbpedia.org/ontology/">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "# Stop word list">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
-echo "org.dbpedia.spotlight.data.stopWords.${LANG_DESC}=${ROOT_DIRECTORY}/lucene-quickstarter/i18n/${LANG_i18n}/stopwords.list">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
+echo "org.dbpedia.spotlight.data.stopWords.${LANG_DESC}=${ROOT_DIRECTORY}/../lucene-quickstarter/i18n/${LANG_i18n}/stopwords.list">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "# URI patterns that should not be indexed. e.g. List_of_*">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
-echo "org.dbpedia.spotlight.data.badURIs.${LANG_DESC}=${ROOT_DIRECTORY}/lucene-quickstarter/i18n/${LANG_i18n}/blacklistedURIPatterns.${LANG_i18n}.list">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
+echo "org.dbpedia.spotlight.data.badURIs.${LANG_DESC}=${ROOT_DIRECTORY}/../lucene-quickstarter/i18n/${LANG_i18n}/blacklistedURIPatterns.${LANG_i18n}.list">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "# Will discard surface forms that are too long (reduces complexity of spotting and generally size in disk/memory)">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
 echo "org.dbpedia.spotlight.data.maxSurfaceFormLength=50">> ../i18n/${LANG_i18n}/indexing_${DBPEDIA_VERSION}.properties
