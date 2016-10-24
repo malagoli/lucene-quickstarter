@@ -6,9 +6,9 @@ readonly all_languages=$2
 
 for lang in ${all_languages[@]}
 do
-./download_dbpedia.sh ${DBPEDIA_VERSION} ${lang}
+#./download_dbpedia.sh ${DBPEDIA_VERSION} ${lang}
 
-./download_wikipedia.sh ${lang}
+#./download_wikipedia.sh ${lang}
 ./index_all.sh ${DBPEDIA_VERSION}
 ./build_index.sh ${DBPEDIA_VERSION} ${lang}
 #./package.sh ${DBPEDIA_VERSION} ${lang}

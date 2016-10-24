@@ -4,7 +4,8 @@ services:
   builder:
     build: .
     volumes:
-      - /Volumes/A/spotlight/dbpedia/:/mnt/dbpedia/
+      - /home/davide/dbpedia/:/mnt/dbpedia/
+      - /home/davide/dbpedia-spotlight:/mnt/dbpedia-spotlight
     command: ./build_all.sh 2015-10 it
 
 
